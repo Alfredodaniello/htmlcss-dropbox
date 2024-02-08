@@ -1,0 +1,75 @@
+/*----------
+    RESET
+----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------
+TYPHOGRAPHY
+----------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------
+   BUTTONS
+----------*/
+
+button {
+    color: #ffffff;
+    background-color: #0061ff;
+    padding: 8px 16px;
+    border: none;
+}
+
+/*----------
+   HEADER
+----------*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.h-left {
+    gap: 20px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.h-right {
+    display: flex;
+    padding-right: 20px;
+}
+
+.h-nav ul {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+
+header a {
+    font-weight: 500;
+    color: #676767;
+    text-decoration: none;
+}
+
+.h-nav {
+    display: flex;
+}
+
+.h-nav button {
+    margin-top: -4px;
+}
+
+#accedi {
+   margin-right: 20px;
+}
