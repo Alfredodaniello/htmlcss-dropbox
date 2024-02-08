@@ -17,6 +17,12 @@ body {
 }
 
 /*----------
+GRID LAYOUT
+----------*/
+
+
+
+/*----------
    BUTTONS
 ----------*/
 
@@ -33,10 +39,15 @@ button {
 
 
 header {
+    font-size: 15px;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .h-left {
@@ -72,4 +83,13 @@ header a {
 
 #accedi {
    margin-right: 20px;
+}
+
+/*----------
+   MAIN
+----------*/
+
+.hero {
+    background-color: #b4d0e7;
+    height: 735px;
 }
