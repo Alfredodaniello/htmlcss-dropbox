@@ -21,6 +21,9 @@ body {
     font-weight: 800;
 }
 
+li  {
+    font-size: 12px;
+}
 .hero p {
     font-size: 13px;
 }
@@ -49,8 +52,28 @@ ul {
     font-size: 10px;
 }
 .col-33 li {
-    font-size: 10px;
     margin-bottom: 10px;
+}
+
+.title {
+    padding: 7px 0px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom:1px solid  #d0d0d3;
+}
+
+.subtitle {
+ font-size: 14px;
+}
+
+hr {
+    margin-top: 25px;
+    color: #d0d0d3;
+    width: 20%;
+}
+
+.link-a {
+    font-size: 10px;
 }
 
 
@@ -74,7 +97,6 @@ GRID LAYOUT
 }
 
 .row-800 {
-    max-width: 800px;
     display: flex;
 }
 
@@ -82,7 +104,17 @@ GRID LAYOUT
     width: 33;
 }
 
+.border {
+    border: 1px solid #d0d0d3;
+}
 
+.sec-contacts {
+    margin-top: 50px;
+}
+
+#h2-main {
+    font-size: 30px;
+}
 
 /*----------
    BUTTONS
@@ -94,6 +126,13 @@ button {
     background-color: #0061ff;
     padding: 8px 16px;
     border: none;
+}
+
+
+.button-col {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /*----------
@@ -113,7 +152,9 @@ header {
     left: 0;
     z-index: 99;
 }
-
+.logo {
+    margin-top: -5px;
+}
 .h-left {
     gap: 20px;
     display: flex;
@@ -144,7 +185,7 @@ header a {
 }
 
 .h-nav button {
-    margin-top: -4px;
+    margin-top: -7px;
 }
 
 #accedi {
@@ -154,6 +195,10 @@ header a {
 /*----------
    MAIN
 ----------*/
+
+.bussines div {
+    margin-bottom: 25px;
+}
 
 .hero {
     background-color: #b4d0e7;
@@ -183,8 +228,8 @@ header a {
 }
 
 .top-row {
-    margin-top: 160px;
     min-height: 125px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -205,19 +250,38 @@ header a {
 }
 
 .col{
-    
     margin: auto;
     margin-top: 30px;
     max-width: 80%;
 }
 
-.border {
+table, td, th {
     border: 1px solid #d0d0d3;
+    border-collapse: collapse;
 }
 
-.button-col {
-    font-size: 12px;
-    width: 100%;
+i {
+    padding-right: 5px;
+}
+ 
+.fa-check {
+    color: #0061ff;
 }
 
+.col-30 a, hr{
+    margin-bottom: 20px;
+}
+
+.trial {
+    margin-bottom: 12px;
+}
+
+.col-long {
+    border-bottom: 1px solid #d0d0d3;
+    min-height: 711.8px;
+}
+
+/*----------
+SECTION CONTACTS
+----------*/
 
