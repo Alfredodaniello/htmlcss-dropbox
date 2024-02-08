@@ -24,6 +24,36 @@ body {
 .hero p {
     font-size: 13px;
 }
+
+.top-row h3{
+    font-size: 30px;
+}
+
+.top-row span {
+font-size: 11px;
+}
+
+ul {
+    list-style: none;
+}
+
+.trial {
+    font-size: 18px;
+}
+
+.col-33  strong {
+    font-size: 10px;
+}
+
+.li-10  {
+    font-size: 10px;
+}
+.col-33 li {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
 /*----------
 GRID LAYOUT
 ----------*/
@@ -31,13 +61,25 @@ GRID LAYOUT
     margin: auto;
     max-width: 960px;
 }
-
+.container-800 {
+    max-width: 800px;
+    margin: auto;
+}
 .col-30 {
     width: 30%;
 }
 
 .col-70 {
     width: 70%;
+}
+
+.row-800 {
+    max-width: 800px;
+    display: flex;
+}
+
+.col-33 {
+    width: 33;
 }
 
 
@@ -69,6 +111,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 99;
 }
 
 .h-left {
@@ -138,3 +181,43 @@ header a {
     margin-top: 35px;
     font-size: 25px;
 }
+
+.top-row {
+    margin-top: 160px;
+    min-height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-800 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.user-list li {
+    margin-bottom: 15px;
+}
+
+.user-list {
+    margin-top: 30px;
+}
+
+.col{
+    
+    margin: auto;
+    margin-top: 30px;
+    max-width: 80%;
+}
+
+.border {
+    border: 1px solid #d0d0d3;
+}
+
+.button-col {
+    font-size: 12px;
+    width: 100%;
+}
+
+
