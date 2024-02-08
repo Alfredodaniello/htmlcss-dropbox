@@ -15,10 +15,30 @@ TYPHOGRAPHY
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.hero h1 {
+    padding-top:70px;
+    font-size: 51px;
+    font-weight: 800;
+}
 
+.hero p {
+    font-size: 13px;
+}
 /*----------
 GRID LAYOUT
 ----------*/
+.container {
+    margin: auto;
+    max-width: 960px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
 
 
 
@@ -27,6 +47,7 @@ GRID LAYOUT
 ----------*/
 
 button {
+    font-size: 13PX;
     color: #ffffff;
     background-color: #0061ff;
     padding: 8px 16px;
@@ -39,7 +60,7 @@ button {
 
 
 header {
-    font-size: 15px;
+    font-size: 13px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -57,6 +78,8 @@ header {
 }
 
 .h-right {
+    padding-top: 5px;
+    align-items: center;
     display: flex;
     padding-right: 20px;
 }
@@ -91,5 +114,27 @@ header a {
 
 .hero {
     background-color: #b4d0e7;
-    height: 735px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.row-large {
+    display: flex;
+    position: relative;
+    bottom: -70px;
+}
+
+.h1-hero {
+    max-width: 700px;
+}
+
+.col-30 p, .hero-button {
+    margin-bottom: 20px;
+}
+
+.fa-arrow-down {
+    margin-top: 35px;
+    font-size: 25px;
 }
