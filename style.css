@@ -15,6 +15,8 @@ TYPHOGRAPHY
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
 .hero h1 {
     padding-top:70px;
     font-size: 51px;
@@ -75,7 +77,9 @@ hr {
 .link-a {
     font-size: 10px;
 }
-
+.banner p {
+    font-size: 15px;
+}
 
 /*----------
 GRID LAYOUT
@@ -92,16 +96,26 @@ GRID LAYOUT
     width: 30%;
 }
 
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
 .col-70 {
     width: 70%;
 }
 
 .row-800 {
+    max-width: 800px;
     display: flex;
+    margin: auto;
 }
 
 .col-33 {
-    width: 33;
+    width: 33%;
 }
 
 .border {
@@ -115,7 +129,13 @@ GRID LAYOUT
 #h2-main {
     font-size: 30px;
 }
+.justify-b {
+    justify-content: space-between;
+}
 
+.margin {
+    margin: 30px 29px;
+}
 /*----------
    BUTTONS
 ----------*/
@@ -135,6 +155,11 @@ button {
     margin-bottom: 20px;
 }
 
+.button-white {
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: black;
+}
 /*----------
    HEADER
 ----------*/
@@ -190,6 +215,10 @@ header a {
 
 #accedi {
    margin-right: 20px;
+}
+
+.hero {
+    min-height: 592px;
 }
 
 /*----------
@@ -285,3 +314,69 @@ i {
 SECTION CONTACTS
 ----------*/
 
+.sec-contacts .contact-col {
+    width: 240px;
+}
+
+.sec-contacts button {
+    width: 191px;
+    margin-right: 24px;
+    margin-top: 30px;
+}
+
+.sec-contacts strong {
+    font-size: 10px;
+}
+
+.sec-contacts p {
+    color: #676767;
+    font-size: 11px;
+    margin-top: 45px;
+}
+
+/*----------
+SECTION PARTNER
+----------*/
+
+.partner img {
+    width: 100%;
+}
+
+.partner p {
+    margin-bottom: 20px;
+    color: #676767;
+    font-size: 13px;
+}
+
+.partner .col-40 {
+    padding-right: 40px;
+}
+
+.partner .row-800
+ {
+    margin-top: 85px;
+ }
+
+ .partner h4 {
+    padding-top: 30px;
+ }
+
+ /*----------
+SECTION BANNER
+----------*/
+
+.banner div {
+    background-color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .container-800{
+    display: flex;
+}
+
+.banner-row {
+    margin-top: 50px;
+}
