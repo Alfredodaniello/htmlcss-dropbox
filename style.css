@@ -265,6 +265,10 @@ header a {
    MAIN
 ----------*/
 
+#annuale {
+    margin-left: 30px;
+}
+
 table, td, th {
     border: 1px solid #d0d0d3;
     border-collapse: collapse;
@@ -429,54 +433,72 @@ SECTION BANNER
 SECTION LOGO
 ----------*/
 
-.logos  div:not(.col-3) {
+.logos {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logos img{
-    width:  50%;
 }
 
-.bordeaux {
-    background-color: #61082b
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/ 3);
+    height: calc(100vw /3);
+}
+
+.riquadri {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.green {
+    background-color: #a2d39b;
 }
 
 .blue {
-    width: 100%;
-    background-color: #0093ce;
+    background-color:#0061ff ;
+
+}
+
+.bordeaux {
+    background-color: #61082b;
 }
 
 .red {
     background-color: #ff1c1c;
+
 }
 
 .red-d {
     background-color: #d5001f;
 }
 
-.blue-d {
-    background-color: #0d2481;
-}
-.col-3 {
-    background-color: #f5f5f5;
+.lightblue {
+    background-color: #b4d0e7 ;
 }
 
-.gray {
-    background-color: #b4d0e7;
+.blue {
+    background-color: #0d2481 ;
 }
 
 .yellow {
     background-color: #ffd830;
 }
 
-.col-6 div {
-    min-height: 211.48px;
+.gray {
+    overflow: hidden;
+    padding: 50px;
+    display: inline-block;
+    background-color: #f5f5f5;
 }
 
-#green {
-    width: 90%;
-    background-color: #a2d39b;
+.logos img {
+    width: 50%;
+}
+
+.gray div {
+    margin-top: 20px;
 }
 
 /*----------
@@ -526,12 +548,14 @@ SECTION FAQ
 .fa-chevron-down {
     cursor: pointer;
 }
+
+
 /*----------
     FOOTER
 ----------*/
 
 footer {
-    min-height: 450px;
+    min-height: 500px;
     color: #ffffff;
     background-color: #000000;
 }
@@ -558,14 +582,16 @@ footer h4 {
 }
 
  footer li {
+    margin-top: 10px;
     cursor: pointer;
 }
 
+.central-logo {
+    padding: 40px;
+}
 
-
-
-
-
-
-
-
+.central-logo div {
+    font-size: 15px;
+    margin-right: 118px;
+    margin-top: 20px;
+}
