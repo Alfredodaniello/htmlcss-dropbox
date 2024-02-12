@@ -8,6 +8,26 @@
     box-sizing: border-box;
 }
 
+/*----------
+   UTILITY
+----------*/
+
+.d-flex {
+    display: flex;
+}
+
+.jcontent-s{
+    justify-content: space-between;
+}
+
+.jcontent-c {
+    justify-content: center;
+}
+
+.a-item {
+    align-items:center ;
+}
+
 
 /*----------
 TYPHOGRAPHY
@@ -35,6 +55,10 @@ h2 {
     font-size: 30px;
     }
 
+.fs-18 {
+        font-size: 18px;
+    }
+
 .hero h1 {
     padding-top:70px;
     font-size: 51px;
@@ -51,10 +75,6 @@ h2 {
 
 .top-row span {
 font-size: 15px;
-}
-
-.trial {
-    font-size: 18px;
 }
 
 .col-33  strong {
@@ -83,6 +103,7 @@ font-size: 15px;
     font-size: 14px;
 }
 .banner p {
+    margin-top: ;
     font-size: 15px;
 }
 
@@ -102,14 +123,9 @@ GRID LAYOUT
     margin: auto;
     max-width: 960px;
 }
-.container-800 {
+.container-m {
     max-width: 800px;
     margin: auto;
-}
-
-
-.container-large {
-    display: flex;
 }
 
 .col-6 {
@@ -141,12 +157,6 @@ GRID LAYOUT
     width: 70%;
 }
 
-.row-800 {
-    max-width: 800px;
-    display: flex;
-    margin: auto;
-}
-
 .col-33 {
     width: 33%;
 }
@@ -164,8 +174,7 @@ GRID LAYOUT
 }
 
 .h2-main {
-    font-size: 33
-    px;
+    font-size: 33px;
 }
 .justify-b {
     justify-content: space-between;
@@ -228,26 +237,19 @@ header a {
 }
 .h-left {
     gap: 20px;
-    display: flex;
     padding-left: 20px;
 }
 
 .h-right {
-    padding-top: 5px;
-    align-items: center;
-    display: flex;
+    padding-top: 6px;
     padding-right: 20px;
 }
 
 .h-nav ul {
     gap: 20px;
-    display: flex;
     list-style: none;
 }
 
-.h-nav {
-    display: flex;
-}
 
 .h-nav button {
     margin-top: -7px;
@@ -264,6 +266,11 @@ header a {
 /*----------
    MAIN
 ----------*/
+
+.user-list li {
+    gap: 5px;
+    display: flex;
+}
 
 #annuale {
     margin-left: 30px;
@@ -291,7 +298,6 @@ i {
 }
 
 .row-large {
-    display: flex;
     position: relative;
     bottom: -70px;
 }
@@ -312,14 +318,11 @@ i {
 .top-row {
     min-height: 125px;
     margin-top: 140px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .row-800 {
-    display: flex;
-    justify-content: space-between;
+    margin: auto;
     gap: 5%;
 }
 
@@ -409,16 +412,16 @@ SECTION PARTNER
 SECTION BANNER
 ----------*/
 
+.banner h4 {
+    margin-top: 10px;
+}
+
 .banner div {
     background-color: white;
 }
 
 .banner img {
     width: 100%;
-}
-
-.banner .container-800{
-    display: flex;
 }
 
 .banner-row {
@@ -433,27 +436,23 @@ SECTION BANNER
 SECTION LOGO
 ----------*/
 
-.logos {
-    display: flex;
-}
-
 .square {
-    display: flex;
     flex-wrap: wrap;
     width: calc(100%/ 3);
     height: calc(100vw /3);
 }
 
 .riquadri {
-    display: flex ;
-    justify-content: center;
-    align-items: center;
     width: 50%;
     height: 50%;
 }
 
 .green {
     background-color: #a2d39b;
+}
+
+.logo-blue {
+    width: 50%;
 }
 
 .blue {
@@ -493,6 +492,10 @@ SECTION LOGO
     background-color: #f5f5f5;
 }
 
+.logos img:not(#img-middle) {
+    filter: invert(1);
+}
+
 .logos img {
     width: 50%;
 }
@@ -506,12 +509,11 @@ SECTION FAQ
 ----------*/
 
 .prova {
-    display: flex;
     min-height: 300px;
     background-color: #b4d0e7;
 }
 
-.prova .container-800 {
+.prova .container-m {
     justify-content: space-between;
 }
 
@@ -529,8 +531,6 @@ SECTION FAQ
 
 .faq-container {
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
 }
 
 .faq-hr {
@@ -549,6 +549,9 @@ SECTION FAQ
     cursor: pointer;
 }
 
+.fa-chevron-down:hover {
+    rotate: 180deg;
+}
 
 /*----------
     FOOTER
